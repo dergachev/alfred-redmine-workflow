@@ -9,10 +9,10 @@ Installation
 Usage
 -----
 
-* `rmti <user>` - show timesheet this month for <user>
-* `rmtp <project>` - show timesheet this month for <project>
-* `rmi <query>` - search for issue matching <query>
-* `rmp <query>` - search for project matching <query>
+* `rmti <user>` - show timesheet this month for **user**
+* `rmtp <project>` - show timesheet this month for **project**
+* `rmi <query>` - search for issue matching **query**
+* `rmp <query>` - search for project matching **query**
 
 
 
