@@ -6,7 +6,7 @@ Installation
 
 * Get Alfred (3 or 4) with Powerpack (paid version)
 * If using Cloudflare Access instead of VPN, ensure to create & run a pre-authenticated reverse proxy to redmine on localhost:9090 [Gist with instructions](https://gist.github.com/dergachev/62633abc9874a10cc28618276eb94519)
-** runs a reverse proxy on http://localhost:9090 with your tokens being injected (it needs to be running all the time)
+  * runs a reverse proxy on http://localhost:9090 with your tokens being injected (it needs to be running all the time)
 ```
 brew install cloudflare/cloudflare/cloudflared
 brew install mitmproxy
