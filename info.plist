@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.evolvingweb.redmine_alfred</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>4BBB61AD-AAD4-4307-A81C-12858F6C00E0</key>
@@ -112,7 +110,7 @@
 				<key>runningsubtext</key>
 				<string>Retrieving redmine results...</string>
 				<key>script</key>
-				<string>php ~/code/alfred-rm/src/search.php "$@"</string>
+				<string>php ./src/search.php "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -161,7 +159,7 @@
 				<key>runningsubtext</key>
 				<string>Retrieving redmine results...</string>
 				<key>script</key>
-				<string>php ~/code/alfred-rm/src/search.php --issue "$@"</string>
+				<string>php ./src/search.php --issue "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -229,7 +227,7 @@
 				<key>runningsubtext</key>
 				<string>Retrieving redmine results...</string>
 				<key>script</key>
-				<string>php ~/code/alfred-rm/src/search.php --project "$@"</string>
+				<string>php ./src/search.php --project "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -278,7 +276,7 @@
 				<key>runningsubtext</key>
 				<string>Retrieving redmine results...</string>
 				<key>script</key>
-				<string>php ~/code/alfred-rm/src/timesheets.php --user "$@"</string>
+				<string>php ./src/timesheets.php --user "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -327,7 +325,7 @@
 				<key>runningsubtext</key>
 				<string>Retrieving redmine results...</string>
 				<key>script</key>
-				<string>php ~/code/alfred-rm/src/timesheets.php --project "$@"</string>
+				<string>php ./src/timesheets.php --project "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -350,7 +348,11 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This workflow gives you in-line results for Google, helping you find what you want even quicker!</string>
+	<string>rmti &lt;user&gt; - show timesheet this month for user
+rmtp &lt;project&gt; - show timesheet this month for project
+rmsi &lt;query&gt; - search for issue matching query
+rmsp &lt;query&gt; - search for project matching query
+rms &lt;query&gt; - search for any records matching query</string>
 	<key>uidata</key>
 	<dict>
 		<key>0AD4B731-5A05-40CD-8E2A-33C62E6D01D1</key>
